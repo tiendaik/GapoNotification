@@ -8,13 +8,13 @@
 import Foundation
 
 // MARK: - NotificationModel
-struct NotificationModel: Codable {
+class NotificationModel: Codable {
     let id, type: String
     let title: String
     let message: Message
     let image: String
     let icon: String
-    let status: Status
+    var status: Status
     let subscription: Subscription?
     let readAt, createdAt, updatedAt, receivedAt: Int
     let imageThumb: String
