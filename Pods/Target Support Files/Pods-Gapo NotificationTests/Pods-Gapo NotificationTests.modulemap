@@ -1,0 +1,6 @@
+framework module Pods_Gapo_NotificationTests {
+  umbrella header "Pods-Gapo NotificationTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
